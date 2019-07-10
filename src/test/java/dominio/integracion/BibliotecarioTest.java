@@ -123,7 +123,6 @@ public class BibliotecarioTest {
 		// assert
 		Assert.assertNotNull(prestamo.getFechaEntregaMaxima());
 		Assert.assertTrue(blibliotecario.esPrestado(libro.getIsbn()));
-        Assert.assertNotNull(prestamo.getFechaEntregaMaxima());
         Assert.assertEquals(CRONICA_DE_UNA_MUERTA_ANUNCIADA, prestamo.getLibro().getTitulo());
         Assert.assertEquals(STIVEN_GIRALDO, prestamo.getNombreUsuario());
         Assert.assertNotNull(prestamo.getFechaSolicitud());

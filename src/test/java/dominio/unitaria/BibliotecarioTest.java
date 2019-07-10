@@ -164,7 +164,7 @@ public class BibliotecarioTest {
 	}
 	
 	@Test
-	public void calcularFechaEntregaTresDomingosTest() throws ParseException {
+	public void calcularFechaEntregaConDomingosTest() throws ParseException {
 		
 		// arrange
 		

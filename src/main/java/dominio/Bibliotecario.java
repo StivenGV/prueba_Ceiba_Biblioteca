@@ -12,7 +12,7 @@ public class Bibliotecario {
 	public static final String EL_LIBRO_NO_SE_ENCUENTRA_DISPONIBLE = "El libro no se encuentra disponible";
 	public static final String EL_LIBRO_SOLO_SE_USA_EN_LA_BIBLIOTECA = "Los libros palindromos solo se pueden utilizar en la biblioteca";
 	public static final String EL_LIBRO_YA_FUE_PRESTADO = "Este libro ya fue prestado";
-	public static final int SUMA_ISBN_MAYOR = 30;
+	private static final int SUMA_ISBN_MAYOR = 30;
 
 	private RepositorioLibro repositorioLibro;
 	private RepositorioPrestamo repositorioPrestamo;
